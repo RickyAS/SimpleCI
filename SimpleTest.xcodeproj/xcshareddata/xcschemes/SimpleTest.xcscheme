@@ -34,6 +34,20 @@
                ReferencedContainer = "container:SimpleTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2F88879329E4322B00DCCF3E"
+               BuildableName = "SimpleTestUITests.xctest"
+               BlueprintName = "SimpleTestUITests"
+               ReferencedContainer = "container:SimpleTest.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -41,8 +55,7 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES"
-      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -51,6 +64,16 @@
                BlueprintIdentifier = "2F88878929E4322B00DCCF3E"
                BuildableName = "SimpleTestTests.xctest"
                BlueprintName = "SimpleTestTests"
+               ReferencedContainer = "container:SimpleTest.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2F88879329E4322B00DCCF3E"
+               BuildableName = "SimpleTestUITests.xctest"
+               BlueprintName = "SimpleTestUITests"
                ReferencedContainer = "container:SimpleTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
