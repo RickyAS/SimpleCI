@@ -3,12 +3,15 @@ version: 2.1
 jobs:
   build-and-test:
     macos:
-      xcode: 14.0.1
+      xcode: 14.2.0
     environment:
       FL_OUTPUT_DIR: output
       FASTLANE_LANE: test
     steps:
       - checkout
+      - run:
+          name: Set Ruby Version
+          command: rbenv global 3.1.4 && rbenv rehash
       - run: bundle install
       - run:
           name: Fastlane
